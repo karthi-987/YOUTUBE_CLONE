@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Flexbox Practice</title>
+   </head>
+
+   <body style="padding-bottom: 1000px;">
+      <div style="display: flex;
+      flex-direction: row; 
+      "><!-- moving the next flexbox beside it -->
+         <div style="background-color: lightblue;">
+            div1 text <!-- it is more flexible because it can contain the text next to it  unlike gird-->
+         </div>
+         <div style="background-color: lightpink;">
+            div2<p> text</p> <!--if we use <p> in flexbox it will be printed to next line-->
+         </div>
+      </div>
+
+      <div style="
+      display: flex;
+      margin-top: 30px;
+      flex-direction: row; 
+      ">
+         <div style="background-color: lightblue;
+         width: 100px;">
+            100px
+         </div>
+         <div style="background-color: lightpink;
+         flex: 1;"> <!--it is the alternate for 1fr code-->
+            flex: 1
+         </div>
+      </div>
+
+      <div style="
+      display: flex;
+      margin-top: 30px;
+      flex-direction: row; 
+      ">
+         <div style="background-color: lightblue;
+         width: 100px;">
+            100px
+         </div>
+         <div style="background-color: lightpink;
+         flex: 1;"> <!--it is the alternate for 1fr in css grid-->
+            flex: 1
+         </div>
+         <div style="background-color: lightblue;
+         flex: 2;"><!--alternative for 2fr in css grid-->
+            flex: 2
+         </div>
+      </div>
+
+      <div style="
+      display: flex;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: grey;
+      margin-top: 30px;
+      flex-direction: row; 
+      justify-content: space-around;
+      ">
+         <div style="background-color: lightblue;
+         width: 100px;">
+            100px
+         </div>
+         <div style="background-color: lightpink;
+         width: 100px;"> <!--it is the alternate for 1fr in css grid-->
+            100px
+         </div>
+         <div style="background-color: lightblue;
+         width: 100px;"><!--alternative for 2fr in css grid-->
+            100px
+         </div>
+      </div>
+
+      <div style="
+      display: flex;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: grey;
+      margin-top: 30px;
+      flex-direction: row; 
+      justify-content: space-between;
+      ">
+         <div style="background-color: lightblue;
+         width: 100px;">
+            100px
+         </div>
+         <div style="background-color: lightpink;
+         width: 100px;"> <!--it is the alternate for 1fr in css grid-->
+            100px
+         </div>
+         <div style="background-color: lightblue;
+         width: 100px;"><!--alternative for 2fr in css grid-->
+            100px
+         </div>
+      </div>
+
+      <div style="
+      display: flex;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: grey;
+      margin-top: 30px;
+      flex-direction: row; 
+      justify-content: space-around; 
+      align-items: start;
+      ">
+         <div style="background-color: lightblue;
+         width: 100px;">
+            100px
+         </div>
+         <div style="background-color: lightpink;
+         width: 100px;"> <!--it is the alternate for 1fr in css grid-->
+            100px
+         </div>
+         <div style="background-color: lightblue;
+         width: 100px;"><!--alternative for 2fr in css grid-->
+            100px
+         </div>
+      </div>
+
+      <div style="
+      display: flex;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: grey;
+      margin-top: 30px;
+      flex-direction: row; 
+      justify-content: space-around; 
+      align-items: center;
+      ">
+         <div style="background-color: lightblue;
+         width: 100px;">
+            100px
+         </div>
+         <div style="background-color: lightpink;
+         width: 100px;"> <!--it is the alternate for 1fr in css grid-->
+            100px
+         </div>
+         <div style="background-color: lightblue;
+         width: 100px;"><!--alternative for 2fr in css grid-->
+            100px
+         </div>
+      </div>
+
+   </body>
+</html>

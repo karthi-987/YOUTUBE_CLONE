@@ -1,0 +1,55 @@
+p{/*normal selector */
+   font-family: roboto;
+   line-height: 22px;
+   margin-top: 0px;
+}
+.title {/* selector that focus on specific class with high priority*/
+   font-weight: bold;
+   font-size: 18px;
+   width: 280px;/* forcing this text to show at next line after 300 pixels*/
+   line-height: 24px;
+   margin-bottom: 5px;
+}
+
+.stats {
+   font-size: 14px;
+   color: rgb(96, 96, 96);
+   margin-bottom: 20px;
+   width: 280px;
+   
+}
+
+.author {
+   color: rgb(96, 96, 96);
+   font-size: 14px;
+   width: 280px;
+}
+
+.description {
+   font-size: 14px;
+   color: rgb(96, 96, 96);
+   width: 280px;
+   line-height: 22px;
+   margin-bottom: 100px;
+}
+
+.apple {
+   margin-bottom: 50px;
+   font-size: 14px;
+   background-color: rgb(231, 45, 45);
+   padding-top: 18px;
+   padding-bottom: 18px;
+   color: white;
+   padding-right: 10px;
+   padding-left: 10px;
+   text-align: center;
+}
+
+.shop {
+   cursor: pointer;
+}
+
+.shop:hover {
+   text-decoration: underline;/*used to underline a text*/
+  
+}
